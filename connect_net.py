@@ -40,16 +40,6 @@ class Login:
         url="https://w.seu.edu.cn:801/eportal/?c=Portal&a=login&callback=dr1003&login_method=1&user_account=%2C0%2C"+username+"&user_password="+passwd+"&wlan_user_ip="+ip+"&wlan_user_ipv6=&wlan_user_mac=000000000000&wlan_ac_ip=&wlan_ac_name=jlh_me60&jsVersion=3.3.2&v=7707 HTTP/1.1"   #9745
         #Header
 
-# GET https://w.seu.edu.cn:801/eportal/?c=Portal&a=login&callback=dr1003&login_method=1&user_account=%2C0%2Cxxxxxxxxxx&user_password=xxxxxx&wlan_user_ip=121.248.50.254&wlan_user_ipv6=&wlan_user_mac=000000000000&wlan_ac_ip=&wlan_ac_name=jlh_me60&jsVersion=3.3.2&v=3344 HTTP/1.1
-# Accept: application/javascript, */*;q=0.8
-# Referer: https://w.seu.edu.cn/a79.htm?UserIP=121.248.50.254&wlanacname=jlh_me60
-# Accept-Language: zh-Hans-CN,zh-Hans;q=0.5
-# User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; LCTE; rv:11.0) like Gecko
-# Accept-Encoding: gzip, deflate
-# Host: w.seu.edu.cn:801
-# Connection: Keep-Alive
-# Cookie: PHPSESSID=vuul47ocshfrh7n1p1j16svq45
-
 
         headers={
         "Accept":"application/javascript, */*;q=0.8",
